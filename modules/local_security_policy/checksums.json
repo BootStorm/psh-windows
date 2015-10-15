@@ -1,0 +1,12 @@
+{
+  "CHANGELOG.md": "4c785b45afdda7d71cea17ddf2ef17e8",
+  "LICENSE": "3b83ef96387f14655fc854ddc3c6bd57",
+  "README.md": "73b2cb5c3de9a6cca69925865bbc955f",
+  "lib/puppet/provider/local_security_policy/policy.rb": "360436267aeac5cdc4dd2f3603f50f75",
+  "lib/puppet/type/local_security_policy.rb": "01b41fa83b0bed760894798aabc6bb4e",
+  "manifests/init.pp": "17a002bbf7698087525f28a3bf5f17bf",
+  "metadata.json": "0081d5f5c635349d22aeece75248a1aa",
+  "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+  "spec/spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
+  "tests/init.pp": "f19fdd389a5057fc087a461850b0221e"
+}

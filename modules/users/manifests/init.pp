@@ -1,5 +1,7 @@
 class users {
 
+  include local_security_policy
+
   user { 'testing':
     ensure   => present,
     password => 'FDJashae85$$sfha!00',
@@ -10,6 +12,10 @@ class users {
     ensure => present,
   }
 
+  local_security_policy { 'Log on as a service':
+    ensure       => present,
+    policy_value => ['cloudbase-init,NT SERVICE\ALL SERVICES,testing'],
+  }
 }
 
 
