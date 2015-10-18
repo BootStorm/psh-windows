@@ -14,7 +14,7 @@ class users {
 
   local_security_policy { 'Log on as a service':
     ensure       => present,
-    policy_value => ['cloudbase-init,NT SERVICE\ALL SERVICES,testing'],
+    policy_value => ['NT_SERVICE\ALL_SERVICES,cloudbase-init,testing'],
   }
 }
 
