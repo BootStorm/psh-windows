@@ -3,8 +3,12 @@ class sevenzip2 {
   include chocolatey
 
   package { '7Zip':
-    ensure   => installed,
+    ensure   => latest,
     provider => 'chocolatey',
+  }
+
+  reboot { 'after':
+    subscribe => Package['7Zip'],
   }
 
 }
